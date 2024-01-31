@@ -696,12 +696,12 @@ a {
   background-color: transparent;
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .from-fe-red {
@@ -716,12 +716,12 @@ a {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-fe-grey {
-  --tw-gradient-to: #DDDDDD var(--tw-gradient-to-position);
-}
-
 .to-black {
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
+}
+
+.to-fe-grey {
+  --tw-gradient-to: #DDDDDD var(--tw-gradient-to-position);
 }
 
 .bg-clip-text {
@@ -732,11 +732,6 @@ a {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .px-3 {
@@ -789,13 +784,13 @@ a {
   color: rgb(221 221 221 / var(--tw-text-opacity));
 }
 
-.text-transparent {
-  color: transparent;
-}
-
 .text-fe-melon {
   --tw-text-opacity: 1;
   color: rgb(255 211 105 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 .opacity-0 {
